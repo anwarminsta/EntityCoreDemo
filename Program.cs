@@ -27,7 +27,7 @@ namespace EntityCoreDemo
             app.MapControllers();
             
             // Default endpoint
-            app.MapGet("/", () => "Welcome to EntityCoreDemo API");
+            //app.MapGet("/", () => "Welcome to EntityCoreDemo API");
 
             app.Run();
         }
